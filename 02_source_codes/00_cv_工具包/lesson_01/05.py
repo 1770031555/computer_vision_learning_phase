@@ -12,6 +12,14 @@ img = cv2.imread(image_path)
 # cv2.imshow("source Image", img)
 # cv2.waitKey(0)
 
-img_r = cv2.resize(img, (256, 256), interpolation=cv2.INTER_LINEAR)
-cv2.namedWindow("resize image")
-cv2.
+# image resize 时候，宽度在前高度在后
+# img_r = cv2.resize(img, (125, 256), interpolation=cv2.INTER_LINEAR)
+# cv2.namedWindow("resize image")
+# cv2.imshow("resized image", img_r)
+# cv2.waitKey(0)
+# print("INFO : shape of img_r {}".format(
+# 	img_r.shape
+# ))
+
+
+
